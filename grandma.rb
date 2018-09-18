@@ -1,9 +1,9 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(string)
-if (string is not uppercase)
+if (string.downcase)
   puts "HUH?! SPEAK UP, SONNY!"
 elsif
-  (string is uppercase)
+  (string.uppercase)
   puts "NO, NOT SINCE 1938!"
 else(string .eql? I LOVE YOU GRANDMA!)
   puts "I LOVE YOU TOO PUMPKIN!"
